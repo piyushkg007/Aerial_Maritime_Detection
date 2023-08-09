@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['boat', 'car', 'dock', 'jetski', 'lift']
+
+roboflow:
+  workspace: jacob-solawetz
+  project: aerial-maritime
+  version: 24
+  license: MIT
+  url: https://universe.roboflow.com/jacob-solawetz/aerial-maritime/dataset/24
